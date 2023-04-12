@@ -1,0 +1,158 @@
+/* Overall Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #1c2d41;
+    color: #a31717;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo-container img {
+    max-width: 20%;
+    height: auto;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #b1c4d7;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #171096;
+    text-align: center;
+    padding: 5rem;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .hero a {
+    background-color: #b1c4d7;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    transition: all 0.3s ease;
+  }
+  
+  .hero a:hover {
+    background-color: #fff;
+    color: #1c2d41;
+  }
+  
+  /* About Section Styles */
+  .about {
+    background-color: #fff;
+    color: #0b0ba5;
+    padding: 5rem;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .about a {
+    background-color: #1c2d41;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    transition: all 0.3s ease;
+  }
+  
+  .about a:hover {
+    background-color: #b1c4d7;
+    color: #fff;
+  }
+  
+  /* Pricing Section Styles */
+  .pricing {
+    background-color: #b1c4d7;
+    color: #fff;
+    padding: 5rem;
+    text-align: center;
+  }
+  
+  .pricing h2 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .plans {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  
+  .plan {
+    background-color: #fff;
+    color: #1c2d41;
+    padding: 2rem;
+    margin: 0 1rem;
+    border-radius: 1rem;
+    flex-basis: 30%;
+    max-width: 30rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .plan h3 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .plan p {
+    font-size: 1.
+;}  
+
+.facts {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
